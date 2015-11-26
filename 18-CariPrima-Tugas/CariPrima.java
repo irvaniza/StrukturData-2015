@@ -34,7 +34,7 @@ public class CariPrima {
                                 berkas.write(benarPrima[i].angka()+"\n");
                             }
                             catch (IOException e) {
-                                
+                                 System.out.printf("Terjadi kesalahan: %s", e);
                             }
                         }
                     }
